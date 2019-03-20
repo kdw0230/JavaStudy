@@ -10,8 +10,8 @@ public class Bingo {
 		
 		for(int i = 0 ; i < 1000 ; i++) {
 			int random = (int) (Math.random() * bingo.length);
-			int temp = bingo[0];
 			bingo[0] = bingo[random];
+			int temp = bingo[0];
 			bingo[random] = temp;
 		}
 		//ºù°í Ãâ·Â

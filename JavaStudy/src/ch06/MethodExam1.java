@@ -1,7 +1,20 @@
+package ch06;
 
-public class GitTest {
+import java.util.Scanner;
+
+public class MethodExam1 {
 	public static void main(String[] args) {
+		
+//		Scanner s = null;
+//		s.hasNext();
+		
+		//스태틱키워드 미사용시(정상적인 인스턴스 사용)
+		MethodExam1 me = new MethodExam1();
+		me.printStar(5, '#');
+		
 		printStar(5, '★');
+		
+		//printStar(5, '★');
 
 	}
 
