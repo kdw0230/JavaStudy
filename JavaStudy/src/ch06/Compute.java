@@ -19,4 +19,5 @@ public class Compute {
 		return avg;
 	}
 
+
 }
