@@ -1,6 +1,6 @@
-package com.kopo.human;
+package com.kopo.human2;
 
-public class TV implements Elec {
+public class Tv implements Elec {
 
 	@Override
 	public void volumeUp() {

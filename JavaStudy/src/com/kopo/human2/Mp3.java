@@ -1,6 +1,8 @@
-package com.kopo.human;
+package com.kopo.human2;
 
-public class MP3 implements Elec{
+public class Mp3 implements Elec{
+	int i = 9;
+	
 	public void volumeUp() {
 		System.out.println("여기에 엠피쓰리 볼륨업 코드 작성");
 	}

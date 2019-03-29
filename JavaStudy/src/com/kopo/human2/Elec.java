@@ -1,4 +1,4 @@
-package com.kopo.human;
+package com.kopo.human2;
 
 //public abstract class Elec { // class의 크기는 변수의 크기 = int변수 3개 >> 12byte
 
@@ -15,6 +15,8 @@ package com.kopo.human;
 //	}
 //}
 public interface Elec{
+	public static final int i = 9;
+	
 	public void volumeUp();
 	
 	public void volumeDown();

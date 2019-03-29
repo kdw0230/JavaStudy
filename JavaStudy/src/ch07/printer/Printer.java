@@ -2,6 +2,7 @@ package ch07.printer;
 
 public class Printer {
 	int count2 = 0;
+	
 	public void print2() {
 		count2++;
 		System.out.println("Ãâ·Â2");

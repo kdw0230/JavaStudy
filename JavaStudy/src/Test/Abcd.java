@@ -3,7 +3,7 @@ package Test;
 import java.util.Calendar;
 import java.util.Scanner;
 
-public class Test2 {
+public class Abcd {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.print("연도를 입력하세요. >> ");

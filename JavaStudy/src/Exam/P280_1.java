@@ -1,8 +1,8 @@
 package Exam;
 
-public class P280_0_1 {
+public class P280_1 {
 	public static void main(String[] args) {
-		P280 a = new P280();
+		P280_0 a = new P280_0();
 		boolean result = a.login("hong", "12345");
 		if(result) {
 			System.out.println("로그인되었습니다.");

@@ -5,6 +5,7 @@ public class PC {
 		Printer.print();
 	}
 	public void request2(Printer p) {
+//		p.count2=5;
 		p.print2();
 	}
 }

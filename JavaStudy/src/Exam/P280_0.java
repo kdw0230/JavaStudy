@@ -1,6 +1,6 @@
 package Exam;
 
-public class P280 {
+public class P280_0 {
 	boolean login(String id, String password) {
 		if (id.equals("hong") && password.equals("12345")) {
 			return true;
